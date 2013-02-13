@@ -10,14 +10,25 @@ html, body {
   top: 20px;
   right: 0px; }
   .navigation li {
-    color: #333333;
+    border: 1px solid #cccccc;
+    box-shadow: 0 1px 0 white inset, 0 -1px 0 #eeeeee inset;
+    background-color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#e2e2e2));
+    background-image: -webkit-linear-gradient(top, white, #e2e2e2);
+    background-image: -moz-linear-gradient(top, white, #e2e2e2);
+    background-image: -o-linear-gradient(top, white, #e2e2e2);
+    background-image: -ms-linear-gradient(top, white, #e2e2e2);
+    background-image: linear-gradient(top, white, #e2e2e2);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#ffffff', EndColorStr='#e2e2e2');
+    border-radius: 3px;
+    color: #999;
+    text-shadow: 0 1px 0 white, 0 -1px 0 black;
     display: block;
     padding: 0 10px;
     line-height: 30px;
     margin-bottom: 2px;
     font-weight: bold;
     -webkit-transition: all 0.2s ease-in-out;
-    border-bottom: 1px solid black;
     text-align: left;
     width: 53px; }
 
@@ -128,7 +139,7 @@ html, body {
  SLIDE 3 
 *******************************/
 #slide3 {
-  background-color: #b6c10b; }
+  background-color: #cdda69; }
 
 #slide3 img:first-child {
   position: absolute;
@@ -164,7 +175,7 @@ html, body {
  SLIDE 4 
 *******************************/
 #slide4 {
-  background-image: url(../images/Slide4/desktop4.jpg);
+  background-image: url(../images/Slide4/group.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

@@ -19,14 +19,26 @@ html,body{
 	top:20px;
 	right:0px;
 	li{
-	color:#333333;
+		border:1px solid #ccc;
+		box-shadow:0 1px 0 #fff inset, 0 -1px 0 #eee inset; 
+background-color: #ffffff;
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 255, 255)), to(rgb(226, 226, 226)));
+background-image: -webkit-linear-gradient(top, rgb(255, 255, 255), rgb(226, 226, 226));
+background-image: -moz-linear-gradient(top, rgb(255, 255, 255), rgb(226, 226, 226));
+background-image: -o-linear-gradient(top, rgb(255, 255, 255), rgb(226, 226, 226));
+background-image: -ms-linear-gradient(top, rgb(255, 255, 255), rgb(226, 226, 226));
+background-image: linear-gradient(top, rgb(255, 255, 255), rgb(226, 226, 226));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#ffffff', EndColorStr='#e2e2e2');
+
+border-radius:3px;
+	color:#999;
+	text-shadow:0 1px 0 #fff, 0 -1px 0 #000;
 	display:block;
 	padding: 0 10px;
 	line-height:30px;
 	margin-bottom:2px;
 	font-weight:bold;
 	-webkit-transition: all .2s ease-in-out;
-	border-bottom:1px solid black;
 	text-align:left;
 	width:53px;
 	}
@@ -142,7 +154,7 @@ left: -150px;
  SLIDE 3 
 *******************************/
 #slide3{
-	background-color:#b6c10b;
+	background-color:#cdda69;
 }
 #slide3 img:first-child{
 	position:absolute;
@@ -179,7 +191,7 @@ left: 300px;
 *******************************/
 
 #slide4{
-	background-image:url(../images/Slide4/desktop4.jpg);
+	background-image:url(../images/Slide4/group.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
